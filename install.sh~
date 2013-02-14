@@ -1,1 +1,0 @@
-cd /opt && wget http://redis.googlecode.com/files/redis-2.6.10.tar.gz && tar xzf redis-2.6.10.tar.gz && cd redis-2.6.10 && make -j10 && make install && cd utils && wget https://raw.github.com/farikd/redis_centos_install/master/install_server2.sh && chmod +x ./install_server2.sh && sh ./install_server2.sh
